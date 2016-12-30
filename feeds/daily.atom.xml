@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Wind's Blog - daily</title><link href="http://blog.w2nd.me/" rel="alternate"></link><link href="http://blog.w2nd.me/feeds/daily.atom.xml" rel="self"></link><id>http://blog.w2nd.me/</id><updated>2016-12-31T02:20:00+08:00</updated><entry><title>How to access Exhentai</title><link href="http://blog.w2nd.me/how-to-access-Exhentai.html" rel="alternate"></link><published>2016-12-31T02:20:00+08:00</published><updated>2016-12-31T02:20:00+08:00</updated><author><name>wind</name></author><id>tag:blog.w2nd.me,2016-12-31:/how-to-access-Exhentai.html</id><summary type="html">&lt;p&gt;how to access exhentai&lt;/p&gt;</summary><content type="html">&lt;h1&gt;怎么访问EXHENTAI&lt;/h1&gt;
+&lt;p&gt;===================================&lt;/p&gt;
+&lt;h2&gt;（仅适用于CHROME浏览器）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;下载CHROME插件Cookie Hacker，如果你能够翻墙，那么只需要在应用商店搜索即可。如果不能，请参照如下步骤：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先下载插件文件 &lt;a href="https://pan.baidu.com/s/1b5DITw"&gt;下载链接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;打开你的Chrome扩展程序页：chrome://extensions/，将crx拖进去即可&lt;/li&gt;
+&lt;li&gt;最后，还是在chrome://extensions/页面，右下角有个“配置命令”，点击，给CookieHacker配置个alt+c快捷方式吧（可选）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;访问EXHENTAI &lt;a href="http://exhentai.org"&gt;地址&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击右上角的插件图标或者ALT+C快捷键&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将cokie复制进空白处 Cookie内容为:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ipb_member_id=2483333; ipb_pass_hash=a597f95808ebe00f2c2e28ae32076d6f; igneous=a5080cc3bdc3aca1556bcd6764d07e1b4909551f2c8e0f43310fd53c9bfd6f6df26b88d70a7dc5a582bfe84e378d1edcf5923e5160f762d31cff3222baf072e6; s=af748e095; lv=1483034622-1483118778&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击“inject cookies”确定&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后你就可以尽情访问了，注意身体（&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="pelican"></category><category term="publishing"></category></entry></feed>
