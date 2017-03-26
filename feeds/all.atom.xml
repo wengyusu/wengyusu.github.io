@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Wind's Blog</title><link href="http://blog.w2nd.me/" rel="alternate"></link><link href="http://blog.w2nd.me/feeds/all.atom.xml" rel="self"></link><id>http://blog.w2nd.me/</id><updated>2016-12-31T02:20:00+08:00</updated><entry><title>How to access Exhentai</title><link href="http://blog.w2nd.me/how-to-access-Exhentai.html" rel="alternate"></link><published>2016-12-31T02:20:00+08:00</published><updated>2016-12-31T02:20:00+08:00</updated><author><name>wind</name></author><id>tag:blog.w2nd.me,2016-12-31:/how-to-access-Exhentai.html</id><summary type="html">&lt;p&gt;how to access exhentai&lt;/p&gt;</summary><content type="html">&lt;h1&gt;怎么访问EXHENTAI&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Wind's Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2016-12-31T02:20:00+08:00</updated><entry><title>How to access Exhentai</title><link href="/how-to-access-Exhentai.html" rel="alternate"></link><published>2016-12-31T02:20:00+08:00</published><updated>2016-12-31T02:20:00+08:00</updated><author><name>wind</name></author><id>tag:None,2016-12-31:/how-to-access-Exhentai.html</id><summary type="html">&lt;p&gt;how to access exhentai&lt;/p&gt;</summary><content type="html">&lt;h1&gt;怎么访问EXHENTAI&lt;/h1&gt;
 &lt;p&gt;===================================&lt;/p&gt;
 &lt;h2&gt;（仅适用于CHROME浏览器）&lt;/h2&gt;
 &lt;ul&gt;
@@ -29,17 +29,17 @@
 &lt;li&gt;
 &lt;p&gt;然后你就可以尽情访问了，注意身体（&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content><category term="pelican"></category><category term="publishing"></category></entry><entry><title>360补天成都站CTF Write-up</title><link href="http://blog.w2nd.me/butianctf.html" rel="alternate"></link><published>2016-12-22T10:20:00+08:00</published><updated>2016-12-22T10:20:00+08:00</updated><author><name>wind</name></author><id>tag:blog.w2nd.me,2016-12-22:/butianctf.html</id><summary type="html">&lt;p&gt;补天CTF writeup&lt;/p&gt;</summary><content type="html">&lt;h1&gt;360补天成都站CTF Write-up&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="pelican"></category><category term="publishing"></category></entry><entry><title>360补天成都站CTF Write-up</title><link href="/butianctf.html" rel="alternate"></link><published>2016-12-22T10:20:00+08:00</published><updated>2016-12-22T10:20:00+08:00</updated><author><name>wind</name></author><id>tag:None,2016-12-22:/butianctf.html</id><summary type="html">&lt;p&gt;补天CTF writeup&lt;/p&gt;</summary><content type="html">&lt;h1&gt;360补天成都站CTF Write-up&lt;/h1&gt;
 &lt;h3&gt;补天成都沙龙现场的一道CTF题，题目之长，脑洞之大，超乎想象ORZ，其实并没有做完，只差最后一步。但鉴于没人做出来我还是写写writeup吧= =&lt;/h3&gt;
 &lt;h3&gt;&lt;a href="http://btctf.secbox.cn/"&gt;URL&lt;/a&gt;&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h4&gt;Part 1&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="1" src="http://blog.w2nd.me/statics/1.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="1" src="/statics/1.png"&gt;&lt;/p&gt;
 &lt;p&gt;首先映入眼帘的是这玩意。一开始以为是SQL注入，拿SQLMAP跑了半天，未果。翻了一下robots.txt&lt;/p&gt;
-&lt;p&gt;&lt;img alt="2" src="http://blog.w2nd.me/statics/2.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="2" src="/statics/2.png"&gt;&lt;/p&gt;
 &lt;p&gt;/passwd和/cgi-bin都不存在，所以思路还是不对。猜测可能有备份文件，于是尝试了尝试&lt;strong&gt;index.php~,.index.php.swp, index.php.swp, index.php.bak&lt;/strong&gt;，未果，GG&lt;/p&gt;
 &lt;p&gt;狗头爷爷发现目录下存在m这个文件夹，然而被403，于是尝试继续对目录进行爆破，最后发现&lt;strong&gt;/m/x/n/y&lt;/strong&gt;这个文件目录&lt;/p&gt;
-&lt;p&gt;&lt;img alt="3" src="http://blog.w2nd.me/statics/3.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="3" src="/statics/3.png"&gt;&lt;/p&gt;
 &lt;p&gt;然而对目录下进行文件名猜解并没有任何结果，还是GG&lt;/p&gt;
 &lt;p&gt;这时出题人提示是PHP弱类型，首先尝试了传入数组：user[]/password[]，没什么卵用；又试了MD5绕过，密码输入'QNKCDZO'还是不行，气氛变得十分gay尬。出题人于是在微信群里把源码放出来了，一看到源码我TM惊了&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt;
@@ -89,17 +89,17 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img alt="4" src="http://blog.w2nd.me/statics/4.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="4" src="/statics/4.png"&gt;&lt;/p&gt;
 &lt;p&gt;结果是62778807 用户名输入admin，密码输入62778807即可登陆&lt;/p&gt;
-&lt;p&gt;&lt;img alt="5" src="http://blog.w2nd.me/statics/5.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="5" src="/statics/5.png"&gt;&lt;/p&gt;
 &lt;h4&gt;Part 2&lt;/h4&gt;
 &lt;hr&gt;
 &lt;p&gt;进去之后发现给了一个目录，访问后看到了这个玩意：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="6" src="http://blog.w2nd.me/statics/6.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="6" src="/statics/6.png"&gt;&lt;/p&gt;
 &lt;p&gt;源码中发现tips:tieba/机器人&lt;/p&gt;
-&lt;p&gt;&lt;img alt="7" src="http://blog.w2nd.me/statics/7.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="7" src="/statics/7.png"&gt;&lt;/p&gt;
 &lt;p&gt;一开始还以为服务器上部署了贴吧机器人，后来才发现原来是社工题……直接去贴吧搜索muhe,前几条就发现了&lt;/p&gt;
-&lt;p&gt;&lt;img alt="8" src="http://blog.w2nd.me/statics/8.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="8" src="/statics/8.png"&gt;&lt;/p&gt;
 &lt;h4&gt;Part 3&lt;/h4&gt;
 &lt;hr&gt;
 &lt;p&gt;给了个二维码，扫描一下，是个字符串：&lt;strong&gt;A5I2A1824HD2U3355EB4V3795HH2D4M1580XX0564356155G315T&lt;/strong&gt;&lt;/p&gt;
@@ -107,10 +107,10 @@
 &lt;p&gt;那就下载下来看看咯，结果提示说要输入密码。没办法，瞎猜吧，结果发现密码是butianctf&lt;/p&gt;
 &lt;h4&gt;Part 4（未完成）&lt;/h4&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img alt="9" src="http://blog.w2nd.me/statics/9.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="9" src="/statics/9.png"&gt;&lt;/p&gt;
 &lt;p&gt;这个目录好眼熟啊= =，这TM不就是我们一开始爆破出来的目录吗，神TM居然是个APK文件&lt;/p&gt;
 &lt;p&gt;下载下来发现是个并没什么卵用的APK，点了几个按钮都没什么卵用&lt;/p&gt;
-&lt;p&gt;&lt;img alt="10" src="http://blog.w2nd.me/statics/10.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="10" src="/statics/10.png"&gt;&lt;/p&gt;
 &lt;p&gt;唉，估计是个安卓逆向题，然而ET去上课了没来，只好瞎做了。先解包，发现assests目录下有个文件叫flag&lt;/p&gt;
-&lt;p&gt;&lt;img alt="11" src="http://blog.w2nd.me/statics/11.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="11" src="/statics/11.png"&gt;&lt;/p&gt;
 &lt;p&gt;打开发现是乱码。这时出题人又给了个HINT:是TEA加密，密钥在APK中。于是把DEX文件丢进dex2jar，然后在JDGUI下查看。在网上找了个TEA解密的C++源码，居然还要自己编译…… 先试了'flag'作为密钥发现不行，解不出东西;DEX里面有个'nothere'字符串，发现可以解密出一个新文件，然后想重打包。然后……狗头直接替换文件改后缀了……连签名都不签……然后……就没有然后了，时间到了ORZ&lt;/p&gt;</content><category term="pelican"></category><category term="publishing"></category></entry></feed>
